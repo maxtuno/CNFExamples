@@ -19,7 +19,7 @@ A pure CNF encoder functionality, you can use with any solver that support the s
     assert 2 ** x == 128
     cnf.end({'x': x}) # for vector see multiset_reconstruction_by_differences.py
     while cnf.satisfy(solver='path_to_my_sat_race_sat_solver', params='some params to solver'):
-        peinr(X) 
+        peinr(x) 
 
 # BLUE
  A Powerful and Portable SAT Solver for Java https://github.com/maxtuno/blue
