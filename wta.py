@@ -3,6 +3,8 @@ import sys
 import numpy as np
 import peqnp.cnf as cnf
 
+# Weapon-Target Assignment Problem
+
 # Ref
 # http://i4c.iust.ac.ir/UPL/Paper18/i4c18-1008.pdf
 # http://web.karabuk.edu.tr/emrullahsonuc/wta/A_Parallel_Simulated_Annealing_Algorithm_for_Weapon-Target_Assignment_Problem.pdf
