@@ -13,6 +13,7 @@ import peqnp.cnf as cnf
 def objective(e):
     return sum(v[i] * np.prod([(1 - pij[i][j]) ** e[i][j] for j in range(n)]) for i in range(n))
 
+
 def load_instance(file_name):
     with open(file_name, 'r') as file:
         lines = file.readlines()
